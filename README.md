@@ -99,11 +99,6 @@ Issues and pull requests are very welcome: legacy edge cases, packaging for more
 platforms, performance, and features like richer material mapping. If muSCADier is
 useful to you, try it on your real projects and tell me what breaks.
 
-## Support
-
-If muSCADier saves you time, you can support its development:
-**[Buy me a coffee ☕](https://www.buymeacoffee.com/bineurale)**
-
 ## License
 
 Released under the **GNU General Public License v3.0 or later** — see
