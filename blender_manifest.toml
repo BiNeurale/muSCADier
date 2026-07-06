@@ -1,0 +1,34 @@
+schema_version = "1.0.0"
+
+id = "muscadier"
+version = "1.0.0"
+name = "muSCADier"
+tagline = "Import OpenSCAD (.scad) files as native Blender geometry"
+maintainer = "Emanuele Lovato <bineurale@gmail.com>"
+type = "add-on"
+website = "https://github.com/BiNeurale/muSCADier"
+license = ["SPDX:GPL-3.0-or-later"]
+copyright = ["2026 Emanuele Lovato"]
+
+blender_version_min = "4.2.0"
+
+tags = ["Import-Export", "Pipeline"]
+
+[permissions]
+files = "Read .scad files and write temporary STL/3MF for import"
+network = "Download OpenSCAD on request from files.openscad.org"
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__*",
+  "*.md",
+  ".*",
+  "tests*",
+  "docs*",
+  "ESEMPI*",
+  "RELEASE*",
+  "examples*",
+  "bin*",
+  "*.zip",
+  "*.AppImage",
+]

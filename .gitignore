@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+RELEASE/
+ESEMPI/
+bin/
+*.zip
+*.AppImage
+sviluppo-muSCADier.md
