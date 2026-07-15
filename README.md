@@ -31,6 +31,7 @@ compile your model and imports the result into Blender.
 Point it at an OpenSCAD you already have, or let it **download one for you**. Prefer
 a **recent build**: modern OpenSCAD ships the **Manifold** backend, which is far
 faster than the old CGAL renderer and is what brings per-object colors across.
+<img src="icons/muSCADier_screenshot.png" alt="muSCADier" style="max-width: 100%; height: auto;">
 
 ## Features
 
